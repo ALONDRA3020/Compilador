@@ -2,9 +2,9 @@ grammar Grammar;
 
 program:(statement NEWLINE)*EOF;
 
-statement:assing|print|if_statement|for_statement;
+statement:assign|print|if_statement|for_statement;
 /*Definimos la asignación, una asignacion es igual a una expresion*/
-assing: ID '='expr;
+assign: ID '='expr;
 
 /*Definimos la expresión*/
 print:'print''('expr')';
@@ -13,15 +13,15 @@ print:'print''('expr')';
 if_statement:'if''('expr')'block;
 
 /*Definimos for*/
-for_statement:'for'('assign';'expr';'assign')'block;
+for_statement:'for''('assign':'expr':'assign')'block;
 
 /*Defoinir un bloque se imprimen todas las instrucciones y operaciones que se definieron*/
 block:'{'(statement NEWLINE)*'}';
 
 /*Definimos la expresión para saber si se esta cumpliendo con la función*/
-expr:expr op=('*'|'/')expr /*Operación d emultiplicació y división*/
+expr:expr op=('*'|'/')expr 
     |expr op=('+'|'-')expr
-    |expr op=('>'|'<'|'>=|'>=')expr  /*Se definen la final los operadores de comparación*/
+    |expr op=('>'|'<'|'>='|'<=')expr  
     |expr op=('=='|'!=')expr
     |ID
     |'('expr')'
