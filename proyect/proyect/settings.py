@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1:5173',
+    'compilador-4zp3.onrender.com',
     
 ]
 
