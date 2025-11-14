@@ -26,12 +26,21 @@ class GrammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by GrammarParser#assign.
-    def enterAssign(self, ctx:GrammarParser.AssignContext):
+    # Enter a parse tree produced by GrammarParser#assing.
+    def enterAssing(self, ctx:GrammarParser.AssingContext):
         pass
 
-    # Exit a parse tree produced by GrammarParser#assign.
-    def exitAssign(self, ctx:GrammarParser.AssignContext):
+    # Exit a parse tree produced by GrammarParser#assing.
+    def exitAssing(self, ctx:GrammarParser.AssingContext):
+        pass
+
+
+    # Enter a parse tree produced by GrammarParser#type.
+    def enterType(self, ctx:GrammarParser.TypeContext):
+        pass
+
+    # Exit a parse tree produced by GrammarParser#type.
+    def exitType(self, ctx:GrammarParser.TypeContext):
         pass
 
 

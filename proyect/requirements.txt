@@ -1,0 +1,6 @@
+Django==5.2.8
+gunicorn==23.0.0
+djangorestframework==3.16.1
+django-cors-headers==4.9.0
+antlr4-tools==0.2.2
+antlr4-python3-runtime==4.13.2

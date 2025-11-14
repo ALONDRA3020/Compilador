@@ -1,34 +1,51 @@
 grammar Grammar;
 
-program:(statement NEWLINE)*EOF;
+program: (statement NEWLINE)* EOF;
 
-statement:assign|print|if_statement|for_statement;
-/*Definimos la asignación, una asignacion es igual a una expresion*/
-assign: ID '='expr;
+statement: assing | print | if_statement | for_statement;
 
-/*Definimos la expresión*/
-print:'print''('expr')';
 
-/*Definimos el if*/
-if_statement:'if''('expr')'block;
 
-/*Definimos for*/
-for_statement:'for''('assign':'expr':'assign')'block;
+/* Definimos la asignacion con tipo*/
+assing: type ID '=' expr;
 
-/*Defoinir un bloque se imprimen todas las instrucciones y operaciones que se definieron*/
+/* Definimos los tipos */
+type: 'int' | 'string';
+
+/* Definimos print */
+print:'print' '('expr')';
+
+/* Definimos if */
+if_statement: 'if' '('expr')' block;
+
+/* Definimos for */
+for_statement: 'for' '('assing';'expr';'assing')' block;
+
+/* Definimos block */
 block:'{'(statement NEWLINE)*'}';
 
-/*Definimos la expresión para saber si se esta cumpliendo con la función*/
-expr:expr op=('*'|'/')expr 
-    |expr op=('+'|'-')expr
-    |expr op=('>'|'<'|'>='|'<=')expr  
-    |expr op=('=='|'!=')expr
-    |ID
-    |'('expr')'
-    ;
+/* Definimos expr */
+expr: expr op=('*'|'/') expr
+        | expr op=('+'|'-') expr
+        | expr op=('>'|'<'|'>='|'<=') expr
+        | expr op=('=='|'!=') expr
+        | ID 
+        /* Definicion de valores numericos  */
+        | NUMBER
+        /* Agregamos string a la expresion */
+        | STRING
+        | '('expr')'
+        ;
 
-/*Definición de elementos finales*/
+/*Definicion de elementos finales*/
 ID:[a-zA-Z][a-zA-Z_0-9]*;
-NEWLINE:[\r\n];
-WS:[\t]->skip;
-SEMI:';';
+
+/*Agregamos reglas para los numeros */
+NUMBER: [0-9]+;
+
+/*Agregamos reglas para el string */
+STRING: '"'(~[ "\r\n])*?'"';
+
+NEWLINE: [\r\n];
+WS: [\t] -> skip;
+SEMI: ';' ;
