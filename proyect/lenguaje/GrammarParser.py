@@ -10,31 +10,31 @@ else:
 
 def serializedATN():
     return [
-        4,1,27,101,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,26,101,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,1,0,1,0,1,0,5,0,22,8,0,10,0,12,0,25,9,0,1,0,1,
         0,1,1,1,1,1,1,1,1,3,1,33,8,1,1,2,1,2,1,2,1,2,1,2,1,3,1,3,1,4,1,4,
         1,4,1,4,1,4,1,5,1,5,1,5,1,5,1,5,1,5,1,6,1,6,1,6,1,6,1,6,1,6,1,6,
         1,6,1,6,1,6,1,7,1,7,1,7,1,7,5,7,67,8,7,10,7,12,7,70,9,7,1,7,1,7,
         1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,3,8,82,8,8,1,8,1,8,1,8,1,8,1,8,1,
         8,1,8,1,8,1,8,1,8,1,8,1,8,5,8,96,8,8,10,8,12,8,99,9,8,1,8,0,1,16,
-        9,0,2,4,6,8,10,12,14,16,0,5,1,0,2,3,1,0,12,13,1,0,14,15,1,0,16,19,
-        1,0,20,21,103,0,23,1,0,0,0,2,32,1,0,0,0,4,34,1,0,0,0,6,39,1,0,0,
+        9,0,2,4,6,8,10,12,14,16,0,5,1,0,2,3,1,0,11,12,1,0,13,14,1,0,15,18,
+        1,0,19,20,103,0,23,1,0,0,0,2,32,1,0,0,0,4,34,1,0,0,0,6,39,1,0,0,
         0,8,41,1,0,0,0,10,46,1,0,0,0,12,52,1,0,0,0,14,62,1,0,0,0,16,81,1,
-        0,0,0,18,19,3,2,1,0,19,20,5,25,0,0,20,22,1,0,0,0,21,18,1,0,0,0,22,
+        0,0,0,18,19,3,2,1,0,19,20,5,24,0,0,20,22,1,0,0,0,21,18,1,0,0,0,22,
         25,1,0,0,0,23,21,1,0,0,0,23,24,1,0,0,0,24,26,1,0,0,0,25,23,1,0,0,
         0,26,27,5,0,0,1,27,1,1,0,0,0,28,33,3,4,2,0,29,33,3,8,4,0,30,33,3,
         10,5,0,31,33,3,12,6,0,32,28,1,0,0,0,32,29,1,0,0,0,32,30,1,0,0,0,
-        32,31,1,0,0,0,33,3,1,0,0,0,34,35,3,6,3,0,35,36,5,22,0,0,36,37,5,
+        32,31,1,0,0,0,33,3,1,0,0,0,34,35,3,6,3,0,35,36,5,21,0,0,36,37,5,
         1,0,0,37,38,3,16,8,0,38,5,1,0,0,0,39,40,7,0,0,0,40,7,1,0,0,0,41,
         42,5,4,0,0,42,43,5,5,0,0,43,44,3,16,8,0,44,45,5,6,0,0,45,9,1,0,0,
         0,46,47,5,7,0,0,47,48,5,5,0,0,48,49,3,16,8,0,49,50,5,6,0,0,50,51,
         3,14,7,0,51,11,1,0,0,0,52,53,5,8,0,0,53,54,5,5,0,0,54,55,3,4,2,0,
-        55,56,5,9,0,0,56,57,3,16,8,0,57,58,5,9,0,0,58,59,3,4,2,0,59,60,5,
-        6,0,0,60,61,3,14,7,0,61,13,1,0,0,0,62,68,5,10,0,0,63,64,3,2,1,0,
-        64,65,5,25,0,0,65,67,1,0,0,0,66,63,1,0,0,0,67,70,1,0,0,0,68,66,1,
-        0,0,0,68,69,1,0,0,0,69,71,1,0,0,0,70,68,1,0,0,0,71,72,5,11,0,0,72,
-        15,1,0,0,0,73,74,6,8,-1,0,74,82,5,22,0,0,75,82,5,23,0,0,76,82,5,
-        24,0,0,77,78,5,5,0,0,78,79,3,16,8,0,79,80,5,6,0,0,80,82,1,0,0,0,
+        55,56,5,26,0,0,56,57,3,16,8,0,57,58,5,26,0,0,58,59,3,4,2,0,59,60,
+        5,6,0,0,60,61,3,14,7,0,61,13,1,0,0,0,62,68,5,9,0,0,63,64,3,2,1,0,
+        64,65,5,24,0,0,65,67,1,0,0,0,66,63,1,0,0,0,67,70,1,0,0,0,68,66,1,
+        0,0,0,68,69,1,0,0,0,69,71,1,0,0,0,70,68,1,0,0,0,71,72,5,10,0,0,72,
+        15,1,0,0,0,73,74,6,8,-1,0,74,82,5,21,0,0,75,82,5,22,0,0,76,82,5,
+        23,0,0,77,78,5,5,0,0,78,79,3,16,8,0,79,80,5,6,0,0,80,82,1,0,0,0,
         81,73,1,0,0,0,81,75,1,0,0,0,81,76,1,0,0,0,81,77,1,0,0,0,82,97,1,
         0,0,0,83,84,10,8,0,0,84,85,7,1,0,0,85,96,3,16,8,9,86,87,10,7,0,0,
         87,88,7,2,0,0,88,96,3,16,8,8,89,90,10,6,0,0,90,91,7,3,0,0,91,96,
@@ -55,8 +55,8 @@ class GrammarParser ( Parser ):
     sharedContextCache = PredictionContextCache()
 
     literalNames = [ "<INVALID>", "'='", "'int'", "'string'", "'print'", 
-                     "'('", "')'", "'if'", "'for'", "':'", "'{'", "'}'", 
-                     "'*'", "'/'", "'+'", "'-'", "'>'", "'<'", "'>='", "'<='", 
+                     "'('", "')'", "'if'", "'for'", "'{'", "'}'", "'*'", 
+                     "'/'", "'+'", "'-'", "'>'", "'<'", "'>='", "'<='", 
                      "'=='", "'!='", "<INVALID>", "<INVALID>", "<INVALID>", 
                      "<INVALID>", "<INVALID>", "';'" ]
 
@@ -65,8 +65,8 @@ class GrammarParser ( Parser ):
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "ID", "NUMBER", "STRING", 
-                      "NEWLINE", "WS", "SEMI" ]
+                      "<INVALID>", "ID", "NUMBER", "STRING", "NEWLINE", 
+                      "WS", "SEMI" ]
 
     RULE_program = 0
     RULE_statement = 1
@@ -102,13 +102,12 @@ class GrammarParser ( Parser ):
     T__17=18
     T__18=19
     T__19=20
-    T__20=21
-    ID=22
-    NUMBER=23
-    STRING=24
-    NEWLINE=25
-    WS=26
-    SEMI=27
+    ID=21
+    NUMBER=22
+    STRING=23
+    NEWLINE=24
+    WS=25
+    SEMI=26
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -515,6 +514,12 @@ class GrammarParser ( Parser ):
                 return self.getTypedRuleContext(GrammarParser.AssingContext,i)
 
 
+        def SEMI(self, i:int=None):
+            if i is None:
+                return self.getTokens(GrammarParser.SEMI)
+            else:
+                return self.getToken(GrammarParser.SEMI, i)
+
         def expr(self):
             return self.getTypedRuleContext(GrammarParser.ExprContext,0)
 
@@ -556,11 +561,11 @@ class GrammarParser ( Parser ):
             self.state = 54
             self.assing()
             self.state = 55
-            self.match(GrammarParser.T__8)
+            self.match(GrammarParser.SEMI)
             self.state = 56
             self.expr(0)
             self.state = 57
-            self.match(GrammarParser.T__8)
+            self.match(GrammarParser.SEMI)
             self.state = 58
             self.assing()
             self.state = 59
@@ -624,7 +629,7 @@ class GrammarParser ( Parser ):
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 62
-            self.match(GrammarParser.T__9)
+            self.match(GrammarParser.T__8)
             self.state = 68
             self._errHandler.sync(self)
             _la = self._input.LA(1)
@@ -638,7 +643,7 @@ class GrammarParser ( Parser ):
                 _la = self._input.LA(1)
 
             self.state = 71
-            self.match(GrammarParser.T__10)
+            self.match(GrammarParser.T__9)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -704,15 +709,15 @@ class GrammarParser ( Parser ):
             self.state = 81
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [22]:
+            if token in [21]:
                 self.state = 74
                 self.match(GrammarParser.ID)
                 pass
-            elif token in [23]:
+            elif token in [22]:
                 self.state = 75
                 self.match(GrammarParser.NUMBER)
                 pass
-            elif token in [24]:
+            elif token in [23]:
                 self.state = 76
                 self.match(GrammarParser.STRING)
                 pass
@@ -749,7 +754,7 @@ class GrammarParser ( Parser ):
                         self.state = 84
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
-                        if not(_la==12 or _la==13):
+                        if not(_la==11 or _la==12):
                             localctx.op = self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
@@ -768,7 +773,7 @@ class GrammarParser ( Parser ):
                         self.state = 87
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
-                        if not(_la==14 or _la==15):
+                        if not(_la==13 or _la==14):
                             localctx.op = self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
@@ -787,7 +792,7 @@ class GrammarParser ( Parser ):
                         self.state = 90
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
-                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 983040) != 0)):
+                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 491520) != 0)):
                             localctx.op = self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
@@ -806,7 +811,7 @@ class GrammarParser ( Parser ):
                         self.state = 93
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
-                        if not(_la==20 or _la==21):
+                        if not(_la==19 or _la==20):
                             localctx.op = self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
