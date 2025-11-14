@@ -1,6 +1,6 @@
 from antlr4 import *
-from lenguaje.GrammarLexer import GrammarLexer
-from lenguaje.GrammarParser import GrammarParser
+from lenguage.GrammarLexer import GrammarLexer
+from lenguage.GrammarParser import GrammarParser
 #import lenguage.GrammarLexer as GrammarLexer
 #import lenguage.GrammarParser as GrammarParser
 import traceback
@@ -8,7 +8,7 @@ import traceback
 import  io
 import sys
 #import lenguage.MyVisitor as MyVisitor
-from lenguaje.MyVisitor import MyVisitor
+from lenguage.MyVisitor import MyVisitor
 
 def run_code(code:str):
     input_stream=InputStream(code)
